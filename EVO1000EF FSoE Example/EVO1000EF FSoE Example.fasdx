@@ -381,6 +381,39 @@
                         "subItems": []
                       }
                     ]
+                  },
+                  {
+                    "name": "Hi50_0800END_F00",
+                    "businessId": 2,
+                    "deviceName": "PLC_Safety",
+                    "deviceMd5Code": "be2e923d66b60cc9626b3fade8e09619",
+                    "deviceAdditionData": {},
+                    "type": "Logic_HardwareDevice",
+                    "path": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\Hi50_0800END_F00",
+                    "mappingFilePath": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\Hi50_0800END_F00.xml",
+                    "subItems": []
+                  },
+                  {
+                    "name": "Hi50_0008ETP_F00_FSoE",
+                    "businessId": 2,
+                    "deviceName": "PLC_Safety",
+                    "deviceMd5Code": "be2e923d66b60cc9626b3fade8e09619",
+                    "deviceAdditionData": {},
+                    "type": "Logic_HardwareDevice",
+                    "path": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\Hi50_0008ETP_F00_FSoE",
+                    "mappingFilePath": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\Hi50_0008ETP_F00_FSoE.xml",
+                    "subItems": []
+                  },
+                  {
+                    "name": "Hi50_3ATT_000",
+                    "businessId": 2,
+                    "deviceName": "PLC_Safety",
+                    "deviceMd5Code": "be2e923d66b60cc9626b3fade8e09619",
+                    "deviceAdditionData": {},
+                    "type": "Logic_HardwareDevice",
+                    "path": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\Hi50_3ATT_000",
+                    "mappingFilePath": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\Hi50_3ATT_000.xml",
+                    "subItems": []
                   }
                 ]
               }
