@@ -1,4 +1,4 @@
-<!--NodeCRC64:15644553041460769501, FileCRC64:16871076751232035291-->
+<!--NodeCRC64:4071773352780017513, FileCRC64:7867526971469240227-->
 <device name="LAN1">
     <deviceIdentification>5ce6747b1e61293c25b90ef765a14f7c</deviceIdentification>
     <attribute>
@@ -14,7 +14,7 @@
                         <simpleValue value="4294967295" />
                     </value>
                     <value member="Time">
-                        <simpleValue value="58492413" />
+                        <simpleValue value="70158095" />
                     </value>
                     <value member="Date">
                         <simpleValue value="19964" />

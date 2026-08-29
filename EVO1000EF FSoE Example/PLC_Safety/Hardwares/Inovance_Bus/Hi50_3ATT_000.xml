@@ -1,0 +1,11 @@
+<!--NodeCRC64:4178754064841254500, FileCRC64:11889486720804927394-->
+<device name="Hi50_3ATT_000">
+    <deviceIdentification>4d606a410249c3eb7cd2ddc05dfac582</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters />
+    <mappings />
+</device>

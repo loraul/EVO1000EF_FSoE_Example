@@ -1,0 +1,1603 @@
+<!--NodeCRC64:12970106717076066441, FileCRC64:14619277995693497614-->
+<device name="Hi50_0800END_F00">
+    <deviceIdentification>3d42e73df1f0d87ef53ad4c57ae311e7</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters>
+        <parameter id="72057594037927946" name="Address" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927947" name="Connection Id" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927948" name="Watchdog Time" description="">
+            <value>
+                <simpleValue value="216" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927949" name="Instance Id" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927950" name="Slot Num" description="">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927951" name="ConnectionNum" description="">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927952" name="IsIOModule" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927956" name="Module Identity" description="">
+            <value>
+                <simpleValue value="284479504" />
+            </value>
+        </parameter>
+        <parameter id="72057594037928037" name="Connection Status" description="">
+            <value />
+        </parameter>
+        <parameter id="72057594037938936" name="Safety Parameter Mapping Data Byte Size" description="">
+            <value>
+                <simpleValue value="93" />
+            </value>
+        </parameter>
+        <parameter id="72057594037938937" name="Safety Parameter Mapping Data" description="">
+            <value>
+                <simpleValue value="[0,0,1,24,0,4,1,2,1,1,5,0,1,1,1,5,0,1,1,1,5,0,1,1,1,5,0,1,1,1,0,4,1,1,0,5,2,1,0,4,2,1,0,5,2,1,0,4,1,1,0,5,2,1,0,4,2,1,0,5,2,1,0,4,1,1,0,5,2,1,0,4,2,1,0,5,2,1,0,4,1,1,0,5,2,1,0,4,2,1,0,5,2]" />
+            </value>
+        </parameter>
+        <parameter id="72057594037938938" name="Safety Parameter Mapping Number" description="" download="false">
+            <value>
+                <simpleValue value="87" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939036" name="Protocol version" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939037" name="Test pulse activated (T0/T1)" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939038" name="The period of the test pulse (T0/T1)" description="" download="false">
+            <value>
+                <simpleValue value="24" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939039" name="The width of the test pulse (T0/T1)" description="" download="false">
+            <value>
+                <simpleValue value="4" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939040" name="Behavior after fault" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939041" name="Recover after fault" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939042" name="Module power supply grouping" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939043" name="Channel 0 and 1 Sensor evaluation" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939044" name="Channel 0 and 1 Difference time" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939045" name="Channel 0 and 1 Difference feature" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939046" name="Channel 0 and 1 Recover after discrepancy fault" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939047" name="Channel 2 and 3 Sensor evaluation" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939048" name="Channel 2 and 3 Difference time" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939049" name="Channel 2 and 3 Difference feature" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939050" name="Channel 2 and 3 Recover after discrepancy fault" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939051" name="Channel 4 and 5 Sensor evaluation" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939052" name="Channel 4 and 5 Difference time" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939053" name="Channel 4 and 5 Difference feature" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939054" name="Channel 4 and 5 Recover after discrepancy fault" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939055" name="Channel 6 and 7 Sensor evaluation" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939056" name="Channel 6 and 7 Difference time" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939057" name="Channel 6 and 7 Difference feature" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939058" name="Channel 6 and 7 Recover after discrepancy fault" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939059" name="Channel 0 activated" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939060" name="Channel 0 OFF-ON input delay" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939061" name="Channel 0 ON-OFF input delay" description="" download="false">
+            <value>
+                <simpleValue value="4" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939062" name="Channel 0 test pulse sourse" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939063" name="Channel 0 recover after fault" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939064" name="Channel 0 chatter monitor enable" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939065" name="Channel 0 number of signal changes" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939066" name="Channel 0 monitor window" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939067" name="Channel 1 activated" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939068" name="Channel 1 OFF-ON input delay" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939069" name="Channel 1 ON-OFF input delay" description="" download="false">
+            <value>
+                <simpleValue value="4" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939070" name="Channel 1 test pulse sourse" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939071" name="Channel 1 recover after fault" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939072" name="Channel 1 chatter monitor enable" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939073" name="Channel 1 number of signal changes" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939074" name="Channel 1 monitor window" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939075" name="Channel 2 activated" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939076" name="Channel 2 OFF-ON input delay" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939077" name="Channel 2 ON-OFF input delay" description="" download="false">
+            <value>
+                <simpleValue value="4" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939078" name="Channel 2 test pulse sourse" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939079" name="Channel 2 recover after fault" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939080" name="Channel 2 chatter monitor enable" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939081" name="Channel 2 number of signal changes" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939082" name="Channel 2 monitor window" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939083" name="Channel 3 activated" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939084" name="Channel 3 OFF-ON input delay" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939085" name="Channel 3 ON-OFF input delay" description="" download="false">
+            <value>
+                <simpleValue value="4" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939086" name="Channel 3 test pulse sourse" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939087" name="Channel 3 recover after fault" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939088" name="Channel 3 chatter monitor enable" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939089" name="Channel 3 number of signal changes" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939090" name="Channel 3 monitor window" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939091" name="Channel 4 activated" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939092" name="Channel 4 OFF-ON input delay" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939093" name="Channel 4 ON-OFF input delay" description="" download="false">
+            <value>
+                <simpleValue value="4" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939094" name="Channel 4 test pulse sourse" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939095" name="Channel 4 recover after fault" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939096" name="Channel 4 chatter monitor enable" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939097" name="Channel 4 number of signal changes" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939098" name="Channel 4 monitor window" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939099" name="Channel 5 activated" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939100" name="Channel 5 OFF-ON input delay" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939101" name="Channel 5 ON-OFF input delay" description="" download="false">
+            <value>
+                <simpleValue value="4" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939102" name="Channel 5 test pulse source" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939103" name="Channel 5 recover after fault" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939104" name="Channel 5 chatter monitor enable" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939105" name="Channel 5 number of signal changes" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939106" name="Channel 5 monitor window" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939107" name="Channel 6 activated" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939108" name="Channel 6 OFF-ON input delay" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939109" name="Channel 6 ON-OFF input delay" description="" download="false">
+            <value>
+                <simpleValue value="4" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939110" name="Channel 6 test pulse source" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939111" name="Channel 6 recover after fault" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939112" name="Channel 6 chatter monitor enable" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939113" name="Channel 6 number of signal changes" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939114" name="Channel 6 monitor window" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939115" name="Channel 7 activated" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939116" name="Channel 7 OFF-ON input delay" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939117" name="Channel 7 ON-OFF input delay" description="" download="false">
+            <value>
+                <simpleValue value="4" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939118" name="Channel 7 test pulse source" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939119" name="Channel 7 recover after fault" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939120" name="Channel 7 chatter monitor enable" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939121" name="Channel 7 number of signal changes" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939122" name="Channel 7 monitor window" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037940036" name="SafetyParaMappingInfo_0" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'65535'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940037" name="SafetyParaMappingInfo_1" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940038" name="SafetyParaMappingInfo_2" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'6'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1000'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940039" name="SafetyParaMappingInfo_3" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'7'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940040" name="SafetyParaMappingInfo_4" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940041" name="SafetyParaMappingInfo_5" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940042" name="SafetyParaMappingInfo_6" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940043" name="SafetyParaMappingInfo_7" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'3'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940044" name="SafetyParaMappingInfo_8" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'5'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'30000'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940045" name="SafetyParaMappingInfo_9" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940046" name="SafetyParaMappingInfo_10" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940047" name="SafetyParaMappingInfo_11" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'3'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940048" name="SafetyParaMappingInfo_12" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'5'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'30000'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940049" name="SafetyParaMappingInfo_13" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940050" name="SafetyParaMappingInfo_14" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940051" name="SafetyParaMappingInfo_15" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'3'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940052" name="SafetyParaMappingInfo_16" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'5'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'30000'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940053" name="SafetyParaMappingInfo_17" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940054" name="SafetyParaMappingInfo_18" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940055" name="SafetyParaMappingInfo_19" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'3'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940056" name="SafetyParaMappingInfo_20" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'5'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'30000'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940057" name="SafetyParaMappingInfo_21" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940058" name="SafetyParaMappingInfo_22" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940059" name="SafetyParaMappingInfo_23" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940060" name="SafetyParaMappingInfo_24" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'6'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940061" name="SafetyParaMappingInfo_25" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940062" name="SafetyParaMappingInfo_26" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940063" name="SafetyParaMappingInfo_27" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940064" name="SafetyParaMappingInfo_28" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940065" name="SafetyParaMappingInfo_29" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'32'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940066" name="SafetyParaMappingInfo_30" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'50'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940067" name="SafetyParaMappingInfo_31" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940068" name="SafetyParaMappingInfo_32" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940069" name="SafetyParaMappingInfo_33" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940070" name="SafetyParaMappingInfo_34" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940071" name="SafetyParaMappingInfo_35" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940072" name="SafetyParaMappingInfo_36" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940073" name="SafetyParaMappingInfo_37" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'32'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940074" name="SafetyParaMappingInfo_38" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'50'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940075" name="SafetyParaMappingInfo_39" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940076" name="SafetyParaMappingInfo_40" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940077" name="SafetyParaMappingInfo_41" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940078" name="SafetyParaMappingInfo_42" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940079" name="SafetyParaMappingInfo_43" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940080" name="SafetyParaMappingInfo_44" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940081" name="SafetyParaMappingInfo_45" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'32'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940082" name="SafetyParaMappingInfo_46" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'50'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940083" name="SafetyParaMappingInfo_47" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940084" name="SafetyParaMappingInfo_48" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940085" name="SafetyParaMappingInfo_49" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940086" name="SafetyParaMappingInfo_50" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940087" name="SafetyParaMappingInfo_51" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940088" name="SafetyParaMappingInfo_52" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940089" name="SafetyParaMappingInfo_53" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'32'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940090" name="SafetyParaMappingInfo_54" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'50'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940091" name="SafetyParaMappingInfo_55" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940092" name="SafetyParaMappingInfo_56" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940093" name="SafetyParaMappingInfo_57" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940094" name="SafetyParaMappingInfo_58" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940095" name="SafetyParaMappingInfo_59" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940096" name="SafetyParaMappingInfo_60" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940097" name="SafetyParaMappingInfo_61" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'32'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940098" name="SafetyParaMappingInfo_62" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'50'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940099" name="SafetyParaMappingInfo_63" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940100" name="SafetyParaMappingInfo_64" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940101" name="SafetyParaMappingInfo_65" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940102" name="SafetyParaMappingInfo_66" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940103" name="SafetyParaMappingInfo_67" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940104" name="SafetyParaMappingInfo_68" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940105" name="SafetyParaMappingInfo_69" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'32'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940106" name="SafetyParaMappingInfo_70" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'50'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940107" name="SafetyParaMappingInfo_71" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940108" name="SafetyParaMappingInfo_72" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940109" name="SafetyParaMappingInfo_73" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940110" name="SafetyParaMappingInfo_74" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940111" name="SafetyParaMappingInfo_75" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940112" name="SafetyParaMappingInfo_76" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940113" name="SafetyParaMappingInfo_77" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'32'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940114" name="SafetyParaMappingInfo_78" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'50'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940115" name="SafetyParaMappingInfo_79" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940116" name="SafetyParaMappingInfo_80" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940117" name="SafetyParaMappingInfo_81" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'8'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940118" name="SafetyParaMappingInfo_82" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940119" name="SafetyParaMappingInfo_83" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940120" name="SafetyParaMappingInfo_84" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'1'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940121" name="SafetyParaMappingInfo_85" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'2'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'32'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037940122" name="SafetyParaMappingInfo_86" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="MinValue">
+                        <simpleValue value="'0'" />
+                    </value>
+                    <value member="MaxValue">
+                        <simpleValue value="'50'" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057594037942936" name="InputTotalByteSize" description="">
+            <value>
+                <simpleValue value="11" />
+            </value>
+        </parameter>
+        <parameter id="72057594037942937" name="InputMappingNum" description="">
+            <value>
+                <simpleValue value="3" />
+            </value>
+        </parameter>
+        <parameter id="72057594037942946" name="InputMappingOffset_0" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037942956" name="InputMappingOffset_1" description="">
+            <value>
+                <simpleValue value="8" />
+            </value>
+        </parameter>
+        <parameter id="72057594037942966" name="InputMappingOffset_2" description="">
+            <value>
+                <simpleValue value="16" />
+            </value>
+        </parameter>
+        <parameter id="72057594037952936" name="OutputTotalByteSize" description="">
+            <value>
+                <simpleValue value="11" />
+            </value>
+        </parameter>
+        <parameter id="72057594037952937" name="OutputMappingNum" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+    </parameters>
+    <mappings>
+        <mapping id="72057594037942947" channel="Module Status">
+            <userDefineAddress>False</userDefineAddress>
+            <address>%IB4096</address>
+            <description />
+            <subMappings />
+        </mapping>
+        <mapping id="72057594037942957" channel="Channel Status">
+            <userDefineAddress>False</userDefineAddress>
+            <address>%IB4097</address>
+            <description />
+            <subMappings />
+        </mapping>
+        <mapping id="72057594037942967" channel="Input Value">
+            <userDefineAddress>False</userDefineAddress>
+            <address>%IB4098</address>
+            <description />
+            <subMappings />
+        </mapping>
+    </mappings>
+</device>

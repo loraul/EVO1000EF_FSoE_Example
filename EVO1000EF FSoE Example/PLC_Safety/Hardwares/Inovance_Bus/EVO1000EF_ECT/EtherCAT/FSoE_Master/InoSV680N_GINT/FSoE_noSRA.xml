@@ -1,0 +1,138 @@
+<!--NodeCRC64:5957266861721563352, FileCRC64:6617931618409931150-->
+<device name="FSoE_noSRA">
+    <deviceIdentification>bbebbdb4d21dab6cdc6348eb01e1862d</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters>
+        <parameter id="72057594037927946" name="Address" description="">
+            <value>
+                <simpleValue value="17" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927947" name="Connection Id" description="">
+            <value>
+                <simpleValue value="17" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927948" name="Watchdog Time" description="">
+            <value>
+                <simpleValue value="500" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927949" name="Instance Id" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927950" name="Slot Num" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927951" name="ConnectionNum" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927952" name="IsIOModule" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037927956" name="Module Identity" description="">
+            <value>
+                <simpleValue value="8193" />
+            </value>
+        </parameter>
+        <parameter id="72057594037928037" name="Connection Status" description="">
+            <value />
+        </parameter>
+        <parameter id="72057594037938936" name="Safety Parameter Mapping Data Byte Size" description="">
+            <value>
+                <simpleValue value="4" />
+            </value>
+        </parameter>
+        <parameter id="72057594037938937" name="Safety Parameter Mapping Data" description="">
+            <value>
+                <simpleValue value="[0,0,0,0]" />
+            </value>
+        </parameter>
+        <parameter id="72057594037938938" name="Safety Parameter Mapping Number" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057594037939036" name="reserved" description="" download="false">
+            <value />
+        </parameter>
+        <parameter id="72057594037942936" name="InputTotalByteSize" description="">
+            <value>
+                <simpleValue value="7" />
+            </value>
+        </parameter>
+        <parameter id="72057594037942937" name="InputMappingNum" description="">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037942946" name="InputMappingOffset_0" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037942956" name="InputMappingOffset_1" description="">
+            <value>
+                <simpleValue value="8" />
+            </value>
+        </parameter>
+        <parameter id="72057594037952936" name="OutputTotalByteSize" description="">
+            <value>
+                <simpleValue value="7" />
+            </value>
+        </parameter>
+        <parameter id="72057594037952937" name="OutputMappingNum" description="">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="72057594037952946" name="OutputMappingOffset_0" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057594037952956" name="OutputMappingOffset_1" description="">
+            <value>
+                <simpleValue value="8" />
+            </value>
+        </parameter>
+    </parameters>
+    <mappings>
+        <mapping id="72057594037942947" channel="Safety Function Status">
+            <userDefineAddress>False</userDefineAddress>
+            <address>%IB4101</address>
+            <description />
+            <subMappings />
+        </mapping>
+        <mapping id="72057594037942957" channel="Safety Function Active">
+            <userDefineAddress>False</userDefineAddress>
+            <address>%IB4102</address>
+            <description />
+            <subMappings />
+        </mapping>
+        <mapping id="72057594037952947" channel="Safety Function Commands 1">
+            <userDefineAddress>False</userDefineAddress>
+            <address>%QB4097</address>
+            <description />
+            <subMappings />
+        </mapping>
+        <mapping id="72057594037952957" channel="Safety Function Commands 2">
+            <userDefineAddress>False</userDefineAddress>
+            <address>%QB4098</address>
+            <description />
+            <subMappings />
+        </mapping>
+    </mappings>
+</device>

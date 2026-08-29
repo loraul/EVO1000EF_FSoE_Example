@@ -1,0 +1,11 @@
+<!--NodeCRC64:2834128188142863539, FileCRC64:12170118990700213549-->
+<device name="FSoE_Master">
+    <deviceIdentification>bd34b7424e0bc15e533abffba693d404</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters />
+    <mappings />
+</device>
