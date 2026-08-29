@@ -1,0 +1,28 @@
+{
+  "slnName": "EVO1000EF FSoE Example",
+  "slnIdentity": "62cfb4ba-5e51-47de-b03c-7f7dc2ce3635",
+  "slnType": "Solution",
+  "softwareVersionNo": "V1.5.3.2",
+  "addinVersionNo": "1.0.0.0",
+  "dataVersionNo": "1.0.0.0",
+  "devices": [],
+  "slnStructure": {
+    "name": "EVO1000EF FSoE Example",
+    "businessId": 1,
+    "deviceName": "",
+    "type": "Platform_Solution",
+    "path": "EVO1000EF FSoE Example",
+    "subItems": [
+      {
+        "name": "NetworkSetting",
+        "businessId": 1,
+        "deviceName": "",
+        "deviceMd5Code": "",
+        "type": "Platform_Configuration",
+        "path": "EVO1000EF FSoE Example\\NetworkSetting",
+        "mappingFilePath": "EVO1000EF FSoE Example\\NetworkSetting.bin",
+        "subItems": []
+      }
+    ]
+  }
+}
