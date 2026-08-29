@@ -234,8 +234,66 @@
                     "deviceAdditionData": {},
                     "type": "Logic_HardwareDevice",
                     "path": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\EtherCAT\\EtherCAT_Master1",
-                    "mappingFilePath": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\EtherCAT\\EtherCAT_Master1.xml",
-                    "subItems": []
+                    "mappingFilePath": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\EtherCAT\\EtherCAT_Master1\\EtherCAT_Master1.xml",
+                    "subItems": [
+                      {
+                        "name": "PLC_Safety",
+                        "businessId": 2,
+                        "deviceName": "PLC_1",
+                        "deviceMd5Code": "882c660c9dcc288135db3bec8e731360",
+                        "deviceAdditionData": {},
+                        "type": "Logic_HardwareDevice",
+                        "path": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\EtherCAT\\EtherCAT_Master1\\PLC_Safety",
+                        "mappingFilePath": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\EtherCAT\\EtherCAT_Master1\\PLC_Safety\\PLC_Safety.xml",
+                        "subItems": [
+                          {
+                            "name": "Hi50_0800END_F00",
+                            "businessId": 2,
+                            "deviceName": "PLC_1",
+                            "deviceMd5Code": "882c660c9dcc288135db3bec8e731360",
+                            "deviceAdditionData": {},
+                            "type": "Logic_HardwareDevice",
+                            "path": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\EtherCAT\\EtherCAT_Master1\\PLC_Safety\\Hi50_0800END_F00",
+                            "mappingFilePath": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\EtherCAT\\EtherCAT_Master1\\PLC_Safety\\Hi50_0800END_F00.xml",
+                            "subItems": []
+                          },
+                          {
+                            "name": "Hi50_0008ETP_F00",
+                            "businessId": 2,
+                            "deviceName": "PLC_1",
+                            "deviceMd5Code": "882c660c9dcc288135db3bec8e731360",
+                            "deviceAdditionData": {},
+                            "type": "Logic_HardwareDevice",
+                            "path": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\EtherCAT\\EtherCAT_Master1\\PLC_Safety\\Hi50_0008ETP_F00",
+                            "mappingFilePath": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\EtherCAT\\EtherCAT_Master1\\PLC_Safety\\Hi50_0008ETP_F00.xml",
+                            "subItems": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "InoSV680N_GINT",
+                        "businessId": 2,
+                        "deviceName": "PLC_1",
+                        "deviceMd5Code": "882c660c9dcc288135db3bec8e731360",
+                        "deviceAdditionData": {},
+                        "type": "Logic_HardwareDevice",
+                        "path": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\EtherCAT\\EtherCAT_Master1\\InoSV680N_GINT",
+                        "mappingFilePath": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\EtherCAT\\EtherCAT_Master1\\InoSV680N_GINT\\InoSV680N_GINT.xml",
+                        "subItems": [
+                          {
+                            "name": "FSoE_noSRA",
+                            "businessId": 2,
+                            "deviceName": "PLC_1",
+                            "deviceMd5Code": "882c660c9dcc288135db3bec8e731360",
+                            "deviceAdditionData": {},
+                            "type": "Logic_HardwareDevice",
+                            "path": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\EtherCAT\\EtherCAT_Master1\\InoSV680N_GINT\\FSoE_noSRA",
+                            "mappingFilePath": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\EtherCAT\\EtherCAT_Master1\\InoSV680N_GINT\\FSoE_noSRA.xml",
+                            "subItems": []
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
@@ -400,8 +458,44 @@
                         "deviceAdditionData": {},
                         "type": "Logic_HardwareDevice",
                         "path": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\EVO1000EF_ECT\\EtherCAT",
-                        "mappingFilePath": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\EVO1000EF_ECT\\EtherCAT.xml",
-                        "subItems": []
+                        "mappingFilePath": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\EVO1000EF_ECT\\EtherCAT\\EtherCAT.xml",
+                        "subItems": [
+                          {
+                            "name": "FSoE_Master",
+                            "businessId": 2,
+                            "deviceName": "PLC_Safety",
+                            "deviceMd5Code": "be2e923d66b60cc9626b3fade8e09619",
+                            "deviceAdditionData": {},
+                            "type": "Logic_HardwareDevice",
+                            "path": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\EVO1000EF_ECT\\EtherCAT\\FSoE_Master",
+                            "mappingFilePath": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\EVO1000EF_ECT\\EtherCAT\\FSoE_Master\\FSoE_Master.xml",
+                            "subItems": [
+                              {
+                                "name": "InoSV680N_GINT",
+                                "businessId": 2,
+                                "deviceName": "PLC_Safety",
+                                "deviceMd5Code": "be2e923d66b60cc9626b3fade8e09619",
+                                "deviceAdditionData": {},
+                                "type": "Logic_HardwareDevice",
+                                "path": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\EVO1000EF_ECT\\EtherCAT\\FSoE_Master\\InoSV680N_GINT",
+                                "mappingFilePath": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\EVO1000EF_ECT\\EtherCAT\\FSoE_Master\\InoSV680N_GINT\\InoSV680N_GINT.xml",
+                                "subItems": [
+                                  {
+                                    "name": "FSoE_noSRA",
+                                    "businessId": 2,
+                                    "deviceName": "PLC_Safety",
+                                    "deviceMd5Code": "be2e923d66b60cc9626b3fade8e09619",
+                                    "deviceAdditionData": {},
+                                    "type": "Logic_HardwareDevice",
+                                    "path": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\EVO1000EF_ECT\\EtherCAT\\FSoE_Master\\InoSV680N_GINT\\FSoE_noSRA",
+                                    "mappingFilePath": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\EVO1000EF_ECT\\EtherCAT\\FSoE_Master\\InoSV680N_GINT\\FSoE_noSRA.xml",
+                                    "subItems": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   },
@@ -417,14 +511,14 @@
                     "subItems": []
                   },
                   {
-                    "name": "Hi50_0008ETP_F00_FSoE",
+                    "name": "Hi50_0008ETP_F00",
                     "businessId": 2,
                     "deviceName": "PLC_Safety",
                     "deviceMd5Code": "be2e923d66b60cc9626b3fade8e09619",
                     "deviceAdditionData": {},
                     "type": "Logic_HardwareDevice",
-                    "path": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\Hi50_0008ETP_F00_FSoE",
-                    "mappingFilePath": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\Hi50_0008ETP_F00_FSoE.xml",
+                    "path": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\Hi50_0008ETP_F00",
+                    "mappingFilePath": "EVO1000EF FSoE Example\\PLC_Safety\\Hardwares\\Inovance_Bus\\Hi50_0008ETP_F00.xml",
                     "subItems": []
                   },
                   {

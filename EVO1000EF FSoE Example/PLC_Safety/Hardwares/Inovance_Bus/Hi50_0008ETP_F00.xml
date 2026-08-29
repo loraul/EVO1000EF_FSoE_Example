@@ -1,6 +1,6 @@
-<!--NodeCRC64:7165838329138558943, FileCRC64:457901027565943156-->
-<device name="Hi50_0008ETP_F00_FSoE">
-    <deviceIdentification>328827794140964662a16f20f56e20c5</deviceIdentification>
+<!--NodeCRC64:10715492309936842712, FileCRC64:8051137874128282819-->
+<device name="Hi50_0008ETP_F00">
+    <deviceIdentification>0b964cf0026c6e1dc2a7a30bb6abfc09</deviceIdentification>
     <attribute>
         <channelBindVarAddr>False</channelBindVarAddr>
         <Disabled>False</Disabled>
@@ -24,7 +24,7 @@
         </parameter>
         <parameter id="72057594037927949" name="Instance Id" description="">
             <value>
-                <simpleValue value="1" />
+                <simpleValue value="2" />
             </value>
         </parameter>
         <parameter id="72057594037927950" name="Slot Num" description="">
@@ -34,7 +34,7 @@
         </parameter>
         <parameter id="72057594037927951" name="ConnectionNum" description="">
             <value>
-                <simpleValue value="2" />
+                <simpleValue value="3" />
             </value>
         </parameter>
         <parameter id="72057594037927952" name="IsIOModule" description="">
@@ -44,7 +44,7 @@
         </parameter>
         <parameter id="72057594037927956" name="Module Identity" description="">
             <value>
-                <simpleValue value="284479777" />
+                <simpleValue value="284479521" />
             </value>
         </parameter>
         <parameter id="72057594037928037" name="Connection Status" description="">
@@ -869,19 +869,19 @@
     <mappings>
         <mapping id="72057594037942947" channel="Module Status">
             <userDefineAddress>False</userDefineAddress>
-            <address>%IB4099</address>
+            <address>%IB4104</address>
             <description />
             <subMappings />
         </mapping>
         <mapping id="72057594037942957" channel="Channel Status">
             <userDefineAddress>False</userDefineAddress>
-            <address>%IB4100</address>
+            <address>%IB4105</address>
             <description />
             <subMappings />
         </mapping>
         <mapping id="72057594037952947" channel="Output Value">
             <userDefineAddress>False</userDefineAddress>
-            <address>%QB4096</address>
+            <address>%QB4097</address>
             <description />
             <subMappings />
         </mapping>

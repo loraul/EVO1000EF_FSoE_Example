@@ -1,4 +1,4 @@
-<!--NodeCRC64:12964903173877556555, FileCRC64:1222969212257928447-->
+<!--NodeCRC64:15031280134609042527, FileCRC64:2923413529200253266-->
 <device name="Hi50_0800END_F00">
     <deviceIdentification>3d42e73df1f0d87ef53ad4c57ae311e7</deviceIdentification>
     <attribute>
@@ -24,7 +24,7 @@
         </parameter>
         <parameter id="72057594037927949" name="Instance Id" description="">
             <value>
-                <simpleValue value="0" />
+                <simpleValue value="1" />
             </value>
         </parameter>
         <parameter id="72057594037927950" name="Slot Num" description="">
@@ -34,7 +34,7 @@
         </parameter>
         <parameter id="72057594037927951" name="ConnectionNum" description="">
             <value>
-                <simpleValue value="1" />
+                <simpleValue value="2" />
             </value>
         </parameter>
         <parameter id="72057594037927952" name="IsIOModule" description="">
@@ -1583,19 +1583,19 @@
     <mappings>
         <mapping id="72057594037942947" channel="Module Status">
             <userDefineAddress>False</userDefineAddress>
-            <address>%IB4096</address>
+            <address>%IB4101</address>
             <description />
             <subMappings />
         </mapping>
         <mapping id="72057594037942957" channel="Channel Status">
             <userDefineAddress>False</userDefineAddress>
-            <address>%IB4097</address>
+            <address>%IB4102</address>
             <description />
             <subMappings />
         </mapping>
         <mapping id="72057594037942967" channel="Input Value">
             <userDefineAddress>False</userDefineAddress>
-            <address>%IB4098</address>
+            <address>%IB4103</address>
             <description />
             <subMappings />
         </mapping>

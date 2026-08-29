@@ -1,0 +1,39 @@
+<!--NodeCRC64:15249262182489189426, FileCRC64:9695562509611392063-->
+<device name="Hi50_0800END_F00">
+    <deviceIdentification>e6e98c60f7c4a86a04839cc3bd0b6915</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <slot>0</slot>
+        <Disabled>False</Disabled>
+        <ECATSlot>True</ECATSlot>
+    </attribute>
+    <busTask />
+    <parameters>
+        <parameter id="72057594037997568" name="Is Safety" description="Is Safety" download="false">
+            <value>
+                <simpleValue value="True" />
+            </value>
+        </parameter>
+        <parameter id="72057595128446976" name="Module ident" description="">
+            <value>
+                <simpleValue value="16#10F4D010" />
+            </value>
+        </parameter>
+        <parameter id="72057595128446992" name="Module class" description="" download="false">
+            <value>
+                <simpleValue value="'Local Hi50 Safety Digital In'" />
+            </value>
+        </parameter>
+        <parameter id="72057595380432896" name="Number of RxPDOs of the Slave" description="Number of RxPDOs of the Slave">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="72057595380563968" name="Number of TxPDOs of the Slave" description="Number of TxPDOs of the Slave">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+    </parameters>
+    <mappings />
+</device>

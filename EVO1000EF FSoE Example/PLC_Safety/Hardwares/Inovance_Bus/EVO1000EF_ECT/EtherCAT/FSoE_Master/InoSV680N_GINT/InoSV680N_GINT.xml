@@ -1,0 +1,11 @@
+<!--NodeCRC64:6013063827401368780, FileCRC64:9709155386554216378-->
+<device name="InoSV680N_GINT">
+    <deviceIdentification>b6c659a7aaff7746b1d229fb2a82010d</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters />
+    <mappings />
+</device>
