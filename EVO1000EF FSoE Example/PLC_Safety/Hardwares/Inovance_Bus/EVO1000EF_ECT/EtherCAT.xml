@@ -1,0 +1,37 @@
+<!--NodeCRC64:16816716343799998072, FileCRC64:2715790150888881440-->
+<device name="EtherCAT">
+    <deviceIdentification>9dda9b1426524e009d54dc988bfacbd1</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters>
+        <parameter id="216172782113783809" name="SendVarTotalLength" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783810" name="ReveiveVarTotalLength" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783818" name="SendVarNumber" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="216172782113784308" name="FaultHandType" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="216172782113784808" name="ReveiveVarNumber" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+    </parameters>
+    <mappings />
+</device>

@@ -1,6 +1,6 @@
-<!--NodeCRC64:9202621012551898073, FileCRC64:5315044854399088430-->
-<device name="EIP2">
-    <deviceIdentification>a710362d5c9758f994e3ec09cd9b1fca</deviceIdentification>
+<!--NodeCRC64:15644553041460769501, FileCRC64:16871076751232035291-->
+<device name="LAN1">
+    <deviceIdentification>5ce6747b1e61293c25b90ef765a14f7c</deviceIdentification>
     <attribute>
         <channelBindVarAddr>False</channelBindVarAddr>
         <Disabled>False</Disabled>
@@ -14,7 +14,7 @@
                         <simpleValue value="4294967295" />
                     </value>
                     <value member="Time">
-                        <simpleValue value="57849547" />
+                        <simpleValue value="58492413" />
                     </value>
                     <value member="Date">
                         <simpleValue value="19964" />
@@ -31,7 +31,9 @@
                     <value member="ProdType">
                         <simpleValue value="14" />
                     </value>
-                    <value member="ProdCode" />
+                    <value member="ProdCode">
+                        <simpleValue value="2070" />
+                    </value>
                     <value member="MajRev">
                         <simpleValue value="1" />
                     </value>
@@ -48,7 +50,7 @@
         </parameter>
         <parameter id="144115188075855972" name="PortId" description="">
             <value>
-                <simpleValue value="1" />
+                <simpleValue value="0" />
             </value>
         </parameter>
         <parameter id="144115188075855975" name="IsExpandPort" description="">

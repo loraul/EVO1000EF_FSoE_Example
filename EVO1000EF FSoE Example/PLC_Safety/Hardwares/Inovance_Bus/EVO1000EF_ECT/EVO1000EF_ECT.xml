@@ -1,0 +1,154 @@
+<!--NodeCRC64:5717862248259138071, FileCRC64:3612350122077799912-->
+<device name="EVO1000EF_ECT">
+    <deviceIdentification>04d25eb2b9646d08c7b66034caec70d9</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters>
+        <parameter id="72057594037928236" name="PortID" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783818" name="OpcUaServerEnabled" description="">
+            <value />
+        </parameter>
+        <parameter id="216172782113783820" name="OpcUaActivedPortsNum" description="">
+            <value />
+        </parameter>
+        <parameter id="216172782113783828" name="OpcUaPortNum" description="">
+            <value>
+                <simpleValue value="4840" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783829" name="OpcUaMaxSessionTimeout" description="">
+            <value>
+                <simpleValue value="30" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783830" name="OpcUaMaxSessionNum" description="">
+            <value>
+                <simpleValue value="10" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783831" name="OpcUaMinSamplingInterval" description="">
+            <value>
+                <simpleValue value="208" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783832" name="OpcUaMinPublishingInterval" description="">
+            <value>
+                <simpleValue value="1000" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783833" name="OpcUaMaxRegisteredNodeNum" description="" download="false">
+            <value>
+                <simpleValue value="2000" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783834" name="OpcUaMaxSubscriptionNumPerSession" description="">
+            <value>
+                <simpleValue value="10" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783835" name="OpcUaMaxMoniterNumPerSubscription" description="">
+            <value>
+                <simpleValue value="1000" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783838" name="OpcUaSecurityPolicy" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783839" name="OpcUaGuestAuthEnabled" description="">
+            <value>
+                <simpleValue value="True" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783840" name="OpcUaUserPwdAuthEnabled" description="">
+            <value />
+        </parameter>
+        <parameter id="216172782113783841" name="OpcUaUserNum" description="">
+            <value />
+        </parameter>
+        <parameter id="216172782113783842" name="OpcUaMinSamplingIntervalStorage" description="">
+            <value>
+                <simpleValue value="1000" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783848" name="OpcUaDiagnoseOptions" description="">
+            <value>
+                <simpleValue value="6" />
+            </value>
+        </parameter>
+        <parameter id="216172782113784308" name="OpcUaActivedPortId" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788808" name="OpcUaMaxSessionNumUpperLimit" description="" download="false">
+            <value>
+                <simpleValue value="20" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788809" name="OpcUaMinPublishingIntervalLowerLimit" description="" download="false">
+            <value>
+                <simpleValue value="200" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788810" name="OpcUaMaxRegisteredNodeNumUpperLimit" description="" download="false">
+            <value>
+                <simpleValue value="2000" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788811" name="OpcUaMaxSubscriptionNumPerSessionLowerLimit" description="" download="false">
+            <value>
+                <simpleValue value="20" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788812" name="OpcUaMaxMoniterNumPerSubscriptionUpperLimit" description="" download="false">
+            <value>
+                <simpleValue value="2000" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788813" name="OpcUaMaxSessionTimeoutUpperLimit" description="" download="false">
+            <value>
+                <simpleValue value="600000" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788814" name="OpcUaMaxSessionTimeoutLowerLimit" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788815" name="OpcUaPortNumUpperLimit" description="" download="false">
+            <value>
+                <simpleValue value="49151" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788816" name="OpcUaPortNumLowerLimit" description="" download="false">
+            <value>
+                <simpleValue value="1024" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788817" name="OpcUaValicMinSamplingIntervals" description="" download="false">
+            <value>
+                <simpleValue value="'100,250,500,1000,5000,10000'" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788818" name="OpcUaMaxMoniterNumPerSubscriptionLowerLimit" description="" download="false">
+            <value>
+                <simpleValue value="100" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788819" name="OpcUaSupportedSecurityPolicy" description="" download="false">
+            <value>
+                <simpleValue value="103" />
+            </value>
+        </parameter>
+    </parameters>
+    <mappings />
+</device>

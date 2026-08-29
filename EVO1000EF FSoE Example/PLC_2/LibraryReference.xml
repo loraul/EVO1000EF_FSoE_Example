@@ -1,4 +1,0 @@
-<!--NodeCRC64:848413309148888564, FileCRC64:1496196537239520084-->
-<libraries>
-    <library name="#SafetyInstructions" namespace="SafetyInstructions" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="SafetyInstructions, 1.0.0.0 (System)" />
-</libraries>
