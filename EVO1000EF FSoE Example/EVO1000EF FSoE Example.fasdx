@@ -11,6 +11,12 @@
       "type": "Platform_Device",
       "deviceMd5Code": "882c660c9dcc288135db3bec8e731360",
       "deviceAdditionData": {}
+    },
+    {
+      "name": "PLC_2",
+      "type": "Platform_Device",
+      "deviceMd5Code": "eeeec748ca2b8eef356925ef30c51101",
+      "deviceAdditionData": {}
     }
   ],
   "slnStructure": {
@@ -241,6 +247,128 @@
                 "type": "Logic_Port_HighSpeedIO",
                 "path": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\High_Speed_IO_Module",
                 "mappingFilePath": "EVO1000EF FSoE Example\\PLC_1\\Hardwares\\High_Speed_IO_Module.xml",
+                "subItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PLC_2",
+        "businessId": 2,
+        "deviceName": "PLC_2",
+        "deviceMd5Code": "eeeec748ca2b8eef356925ef30c51101",
+        "deviceAdditionData": {},
+        "type": "Logic_Device",
+        "path": "EVO1000EF FSoE Example\\PLC_2",
+        "mappingFilePath": "EVO1000EF FSoE Example\\PLC_2\\PLC_2.bin",
+        "subItems": [
+          {
+            "name": "LibraryReference",
+            "businessId": 2,
+            "deviceName": "PLC_2",
+            "deviceMd5Code": "eeeec748ca2b8eef356925ef30c51101",
+            "deviceAdditionData": {},
+            "type": "Logic_Libraries",
+            "path": "EVO1000EF FSoE Example\\PLC_2\\LibraryReference",
+            "mappingFilePath": "EVO1000EF FSoE Example\\PLC_2\\LibraryReference.xml",
+            "subItems": []
+          },
+          {
+            "name": "Programs",
+            "businessId": 2,
+            "deviceName": "PLC_2",
+            "deviceMd5Code": "eeeec748ca2b8eef356925ef30c51101",
+            "deviceAdditionData": {},
+            "type": "Logic_ProgramManager",
+            "path": "EVO1000EF FSoE Example\\PLC_2\\Programs",
+            "subItems": [
+              {
+                "name": "DefaultVariableTable",
+                "businessId": 2,
+                "deviceName": "PLC_2",
+                "deviceMd5Code": "eeeec748ca2b8eef356925ef30c51101",
+                "deviceAdditionData": {},
+                "type": "Logic_GV",
+                "path": "EVO1000EF FSoE Example\\PLC_2\\Programs\\DefaultVariableTable",
+                "mappingFilePath": "EVO1000EF FSoE Example\\PLC_2\\Programs\\DefaultVariableTable.st",
+                "subItems": []
+              },
+              {
+                "name": "Main",
+                "businessId": 2,
+                "deviceName": "PLC_2",
+                "deviceMd5Code": "eeeec748ca2b8eef356925ef30c51101",
+                "deviceAdditionData": {},
+                "type": "Logic_PRG",
+                "path": "EVO1000EF FSoE Example\\PLC_2\\Programs\\Main",
+                "mappingFilePath": "EVO1000EF FSoE Example\\PLC_2\\Programs\\Main.bin",
+                "subItems": []
+              }
+            ]
+          },
+          {
+            "name": "Tasks",
+            "businessId": 2,
+            "deviceName": "PLC_2",
+            "deviceMd5Code": "eeeec748ca2b8eef356925ef30c51101",
+            "deviceAdditionData": {},
+            "type": "Logic_TaskManager",
+            "path": "EVO1000EF FSoE Example\\PLC_2\\Tasks",
+            "subItems": [
+              {
+                "name": "SafetyTask",
+                "businessId": 2,
+                "deviceName": "PLC_2",
+                "deviceMd5Code": "eeeec748ca2b8eef356925ef30c51101",
+                "deviceAdditionData": {},
+                "type": "Logic_Task",
+                "path": "EVO1000EF FSoE Example\\PLC_2\\Tasks\\SafetyTask",
+                "mappingFilePath": "EVO1000EF FSoE Example\\PLC_2\\Tasks\\SafetyTask.xml",
+                "subItems": []
+              }
+            ]
+          },
+          {
+            "name": "Hardwares",
+            "businessId": 2,
+            "deviceName": "PLC_2",
+            "deviceMd5Code": "eeeec748ca2b8eef356925ef30c51101",
+            "deviceAdditionData": {},
+            "type": "Logic_HardwareConfig",
+            "path": "EVO1000EF FSoE Example\\PLC_2\\Hardwares",
+            "subItems": [
+              {
+                "name": "Inovance_Bus",
+                "businessId": 2,
+                "deviceName": "PLC_2",
+                "deviceMd5Code": "eeeec748ca2b8eef356925ef30c51101",
+                "deviceAdditionData": {},
+                "type": "Logic_Port_LocalBus",
+                "path": "EVO1000EF FSoE Example\\PLC_2\\Hardwares\\Inovance_Bus",
+                "mappingFilePath": "EVO1000EF FSoE Example\\PLC_2\\Hardwares\\Inovance_Bus.xml",
+                "subItems": []
+              },
+              {
+                "name": "LAN1",
+                "businessId": 2,
+                "deviceName": "PLC_2",
+                "deviceMd5Code": "eeeec748ca2b8eef356925ef30c51101",
+                "deviceAdditionData": {},
+                "type": "Logic_Port_EtherNet",
+                "path": "EVO1000EF FSoE Example\\PLC_2\\Hardwares\\LAN1",
+                "mappingFilePath": "EVO1000EF FSoE Example\\PLC_2\\Hardwares\\LAN1.xml",
+                "subItems": []
+              },
+              {
+                "name": "EIP2",
+                "businessId": 2,
+                "deviceName": "PLC_2",
+                "deviceMd5Code": "eeeec748ca2b8eef356925ef30c51101",
+                "deviceAdditionData": {},
+                "type": "Logic_Port_EtherNet",
+                "path": "EVO1000EF FSoE Example\\PLC_2\\Hardwares\\EIP2",
+                "mappingFilePath": "EVO1000EF FSoE Example\\PLC_2\\Hardwares\\EIP2.xml",
                 "subItems": []
               }
             ]

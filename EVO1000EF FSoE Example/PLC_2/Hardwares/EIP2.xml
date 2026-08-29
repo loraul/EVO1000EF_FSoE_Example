@@ -1,0 +1,61 @@
+<!--NodeCRC64:9202621012551898073, FileCRC64:5315044854399088430-->
+<device name="EIP2">
+    <deviceIdentification>a710362d5c9758f994e3ec09cd9b1fca</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters>
+        <parameter id="144115188075855882" name="" description="">
+            <value>
+                <structValue>
+                    <value member="NodeId">
+                        <simpleValue value="4294967295" />
+                    </value>
+                    <value member="Time">
+                        <simpleValue value="57849547" />
+                    </value>
+                    <value member="Date">
+                        <simpleValue value="19964" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="144115188075855893" name="DeviceInfo" description="">
+            <value>
+                <structValue>
+                    <value member="VendorID">
+                        <simpleValue value="1660" />
+                    </value>
+                    <value member="ProdType">
+                        <simpleValue value="14" />
+                    </value>
+                    <value member="ProdCode" />
+                    <value member="MajRev">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="MinRev">
+                        <simpleValue value="1" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="144115188075855932" name="IsManual" description="" download="false">
+            <value>
+                <simpleValue value="False" />
+            </value>
+        </parameter>
+        <parameter id="144115188075855972" name="PortId" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="144115188075855975" name="IsExpandPort" description="">
+            <value>
+                <simpleValue value="False" />
+            </value>
+        </parameter>
+    </parameters>
+    <mappings />
+</device>
